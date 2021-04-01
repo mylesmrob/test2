@@ -9,6 +9,6 @@ public class MotorBike extends Vehicle{
 
     @Override
     void totalAfterTax(Vehicle vehicle) {
-        System.out.println(vehicle.totalBeforeTax() + vehicle.CalcTax(vehicle));
+        System.out.println(vehicle.totalBeforeTax() + vehicle.calcTax(vehicle));
     }
 }

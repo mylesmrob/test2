@@ -16,7 +16,7 @@ public class Main {
         System.out.println("Vehicles names & prices: ");
         VehicleApp.printVehicleNamesAndPrices(vehicles);
 
-        ArrayList<Vehicle> driveAbles = new ArrayList<>();
+        ArrayList<DriveAble> driveAbles = new ArrayList<>();
         driveAbles.add(car);driveAbles.add(truck);
         System.out.println("Speed of drivables: ");
         VehicleApp.getSpeedOfDriveableVehicles(driveAbles);

@@ -24,7 +24,7 @@ public abstract class Vehicle extends Product{
         return price * qty;
     }
 
-    public double CalcTax(Vehicle vehicle){
+    public double calcTax(Vehicle vehicle){
         return TAX * vehicle.getPrice();
     }
 

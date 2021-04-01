@@ -11,16 +11,16 @@ public class VehicleApp {
         }
     }
 
-    static void getSpeedOfDriveableVehicles(ArrayList<Vehicle> driveAbles){
-        for(Vehicle d : driveAbles){
-            System.out.println(d.getSpeed());
+    static void getSpeedOfDriveableVehicles(ArrayList<DriveAble> driveAbles){
+        for(DriveAble d : driveAbles){
+            System.out.println(d.milesPerHour());
         }
     }
 
-    static void sortAndPrintDriveableVehiclesBySpeed(ArrayList<Vehicle> driveAbles){
-        driveAbles.sort(Comparator.comparing(Vehicle::getSpeed));
-        for(Vehicle d : driveAbles){
-            System.out.println(d.getName() + ": " + d.getSpeed());
+    static void sortAndPrintDriveableVehiclesBySpeed(ArrayList<DriveAble> driveAbles){
+        driveAbles.sort(Comparator.comparing(DriveAble::milesPerHour));
+        for(DriveAble d : driveAbles){
+            System.out.println(d.milesPerHour());
         }
     }
 }

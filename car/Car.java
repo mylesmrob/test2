@@ -8,7 +8,7 @@ public class Car extends Vehicle implements DriveAble{
 
     @Override
     void totalAfterTax(Vehicle vehicle) {
-        System.out.println(vehicle.totalBeforeTax() + vehicle.CalcTax(vehicle));
+        System.out.println(vehicle.totalBeforeTax() + vehicle.calcTax(vehicle));
     }
 
     @Override
