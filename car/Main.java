@@ -11,7 +11,7 @@ public class Main {
 
         Car car = new Car("Honda",50,100,5,carEngine);
         Truck truck = new Truck("GM",100,75,5,truckEngine);
-        MotorBike bike = new MotorBike("Suzuki",75,125,5,bikeEngine);
+        MotorBike bike = new MotorBike("Suzuki",75,125,5,bikeEngine,2);
         Vehicle[] vehicles = {car,truck,bike};
         System.out.println("Vehicles names & prices: ");
         VehicleApp.printVehicleNamesAndPrices(vehicles);
